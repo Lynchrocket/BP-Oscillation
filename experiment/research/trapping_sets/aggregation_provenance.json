@@ -1,0 +1,109 @@
+{
+  "derived_summaries": [
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/stats/weight-2,error_induced_summary.csv",
+      "output_sha256": "22b3da0146bccf85b0536366b4a0d2c947de1633d8b6ee92a26afc56ec425bc3",
+      "source_paths": [
+        "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_data.csv",
+        "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/trace/subgraph/weight-2,err_subgraph.csv"
+      ],
+      "source_sha256": [
+        "9caed822bb26b02fe3a752ac81722a505883ca9e9c3723adc3bde1dd685db84f",
+        "8cdf58ee84450e1c9230f997d8ec0db23c9088754a9ec8c76473b669669a660d"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/stats/weight-2,detector_induced_summary.csv",
+      "output_sha256": "4376a0823f6f6ab58335526de964f62bc2361fcd4577f7e66b35ca0b79149d62",
+      "source_paths": [
+        "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_data.csv",
+        "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/trace/subgraph/weight-2,det_subgraph.csv"
+      ],
+      "source_sha256": [
+        "9caed822bb26b02fe3a752ac81722a505883ca9e9c3723adc3bde1dd685db84f",
+        "bd2e05a5e824ac702337c7e65ae0797af8e3fe0f48c12cf9e48de78570fea78e"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/stats/weight-3,error_induced_summary.csv",
+      "output_sha256": "b159f13a1c3ad9b729735b14b25d7b6b844ab777d895365e143d3c15ab1a9945",
+      "source_paths": [
+        "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_3_data.csv",
+        "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/trace/subgraph/weight-3,err_subgraph.csv"
+      ],
+      "source_sha256": [
+        "6eef622cdcbb9e6c1c04506feefc945799e99ea9f92dd605cb19f09913d240d7",
+        "315bf7702399ff612d1234aedfcd23c59be4ad2219dc979cfe15e3d252bcf0fc"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/stats/weight-3,detector_induced_summary.csv",
+      "output_sha256": "52fd986f9ee66b39cd13a586d57fb6eccbc59bfd9813e4d824a987740f4ea954",
+      "source_paths": [
+        "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_3_data.csv",
+        "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/trace/subgraph/weight-3,det_subgraph.csv"
+      ],
+      "source_sha256": [
+        "6eef622cdcbb9e6c1c04506feefc945799e99ea9f92dd605cb19f09913d240d7",
+        "c8bec9662a35570f7a5409cc3d9f347036cddd7ea7ff73206b1dc8dbef487c55"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/stats/weight-4,error_induced_summary.csv",
+      "output_sha256": "c73709d200f5ccdee273c39f9072a226c2c27f31149cfc69b8bdc0aba31f78a7",
+      "source_paths": [
+        "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_4_data.csv",
+        "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/trace/subgraph/weight-4,err_subgraph.csv"
+      ],
+      "source_sha256": [
+        "7c5a16e876f55f5ed7dbdd3d2bfc8f5784d21c77403c64afda94572b162b60d6",
+        "aa1a26fe25e2d89907a3a55e5a562b1b008ef1dc6057de0b0ee754b5d00365d4"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/stats/weight-4,detector_induced_summary.csv",
+      "output_sha256": "863e61fd8e8bcfebcb10029a47f14ef56bac19cc918af9bb10791e990ea65b3f",
+      "source_paths": [
+        "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_4_data.csv",
+        "experiment/data/graph_analysis/trapping_sets/04_low_weight_structure/main/trace/subgraph/weight-4,det_subgraph.csv"
+      ],
+      "source_sha256": [
+        "7c5a16e876f55f5ed7dbdd3d2bfc8f5784d21c77403c64afda94572b162b60d6",
+        "24b069f809e53a7db691826ad92ac6fecd59d2ae8c87b4e6402231a6066e2a25"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/03_expansion_contraction/main/stats/ts_depth=2_w=2_summary.csv",
+      "output_sha256": "1405e95a9a7751fb18b4dde9c1cc7a3f9ec5d636eb69a1c7c1777ea136b26cf1",
+      "source_paths": [
+        "experiment/data/graph_analysis/trapping_sets/03_expansion_contraction/main/trace/trapping_set/ts_depth=2_w=2.csv"
+      ],
+      "source_sha256": [
+        "172c8662d4f976bae00a04885aa7bd239cabccd77c5f2f5a863dcc145ddfd82c"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/03_expansion_contraction/main/stats/ts_depth=2_w=3_summary.csv",
+      "output_sha256": "5b65623b457e5ef02117c271bccc7b11786174265663f9e71f3aa254b879905a",
+      "source_paths": [
+        "experiment/data/graph_analysis/trapping_sets/03_expansion_contraction/main/trace/trapping_set/ts_depth=2_w=3.csv"
+      ],
+      "source_sha256": [
+        "a0d3f9debf521ca83629cdc54ff68cc90c819ce78621a9956b35f5afc732670e"
+      ]
+    },
+    {
+      "output_path": "experiment/data/graph_analysis/trapping_sets/03_expansion_contraction/main/stats/ts_depth=2_w=4_summary.csv",
+      "output_sha256": "41da90687d796e24043e70130ae61518f4167890c202aa5dc1a57d04d5f3b663",
+      "source_paths": [
+        "experiment/data/graph_analysis/trapping_sets/03_expansion_contraction/main/trace/trapping_set/ts_depth=2_w=4.csv"
+      ],
+      "source_sha256": [
+        "fe25b881d635053161a1abed60774a7302b0752d231798e5a947fc6caa0e6605"
+      ]
+    }
+  ],
+  "incomplete_legacy_files": [
+    "experiment/data/graph_analysis/trapping_sets/03_expansion_contraction/main/trace/trapping_set/ts_depth=1_w=4.csv"
+  ]
+}

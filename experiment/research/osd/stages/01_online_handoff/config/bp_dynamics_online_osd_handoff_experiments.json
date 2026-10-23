@@ -1,0 +1,124 @@
+{
+  "schema_version": 3,
+  "print_level": 2,
+  "smoke_mode": false,
+  "reuse_existing_data": true,
+  "primary_level": 2,
+  "mechanism_levels": [
+    2
+  ],
+  "optional_generalization_levels": [
+    3
+  ],
+  "mechanism_p_values": [
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "mechanism_gap_target": 150,
+  "mechanism_control_target": 150,
+  "mechanism_batch_size": 1000,
+  "mechanism_max_shots_per_point": 100000,
+  "minimum_d9_strict_gap_events": 50,
+  "final_levels": [
+    2
+  ],
+  "final_p_values": [
+    0.002,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "final_min_shots_per_point": 5000,
+  "final_max_shots_per_point": 100000,
+  "final_batch_size": 1000,
+  "final_min_gap_events": 100,
+  "bp_max_iterations": 60,
+  "full_osd_method": "osd_cs",
+  "full_osd_order_by_distance": {
+    "5": 3,
+    "9": 1
+  },
+  "full_osd_combination_sweep_setting": "all_information_set_subsets_weight_leq_order",
+  "full_osd_candidate_budget_by_distance": {
+    "5": 1160,
+    "9": 33
+  },
+  "feature_windows": [
+    3,
+    5,
+    8
+  ],
+  "primary_window": 5,
+  "top_k_values": [
+    5,
+    10,
+    15
+  ],
+  "primary_top_k": 10,
+  "handoff_thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "handoff_persistence": [
+    1,
+    2,
+    3
+  ],
+  "fixed_handoff_iterations": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    16
+  ],
+  "maximum_wait_iterations": [
+    8,
+    12,
+    16,
+    60
+  ],
+  "prefix_buffer_sizes": [
+    3,
+    5,
+    8,
+    16,
+    -1
+  ],
+  "adaptive_order_thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "scaling_values": [
+    0.7,
+    0.8,
+    1.0,
+    1.2
+  ],
+  "damping_values": [
+    0.0,
+    0.2,
+    0.5
+  ],
+  "schedule": "parallel",
+  "parameter_scan_case_limit": 50,
+  "parameter_scan_unbiased_limit": 500,
+  "development_fraction": 0.5,
+  "cv_folds": 5,
+  "bootstrap_repetitions": 1000,
+  "temporal_shuffle_repetitions": 10,
+  "random_seed": 20260910,
+  "tesseract_beam": 8,
+  "tesseract_pq_limit": 200000
+}

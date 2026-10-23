@@ -1,0 +1,84 @@
+{
+  "print_level": 2,
+  "probe_iterations": 8,
+  "candidate_test_iterations": [
+    3,
+    5
+  ],
+  "primary_candidate_test_iterations": 5,
+  "primary_top_k": 8,
+  "candidate_max_row_weight": 8,
+  "candidate_screen_limit": 30,
+  "unbiased_candidate_limit": 50,
+  "samples_per_outcome": 100,
+  "random_control_seeds": 5,
+  "hybrid_alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "development_fraction": 0.5,
+  "early_probe_iterations": [
+    2,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "iterative_max_rounds": 4,
+  "plateau_delta_values": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "plateau_patience": 2,
+  "gating_quantiles": [
+    0.5,
+    0.75,
+    0.9,
+    0.95
+  ],
+  "candidate_budget_values": [
+    3,
+    5,
+    10,
+    15,
+    20,
+    30
+  ],
+  "progressive_gain_quantiles": [
+    0.5,
+    0.75,
+    0.9
+  ],
+  "progressive_patience_values": [
+    3,
+    5
+  ],
+  "damping_gamma_min": 0.1,
+  "damping_gamma_max": 0.7,
+  "cross_distance_levels": [
+    1,
+    2,
+    3
+  ],
+  "cross_distance_error_weights": [
+    2,
+    3
+  ],
+  "cross_distance_p_limit": 6,
+  "cross_distance_cases_per_stratum": 40,
+  "stochastic_shots_per_point": 2000,
+  "stochastic_batch_size": 200,
+  "longer_bp_iterations": 240,
+  "osd_order": 10,
+  "adaptive_k": 8,
+  "adaptive_max_views": 4,
+  "native_validation_cases": 12,
+  "native_validation_tolerance": 1e-10,
+  "next_random_seed": 20260909
+}

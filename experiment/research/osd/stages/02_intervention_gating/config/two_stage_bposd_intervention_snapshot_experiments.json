@@ -1,0 +1,116 @@
+{
+  "schema_version": 8,
+  "print_level": 2,
+  "smoke_mode": false,
+  "reuse_existing_data": true,
+  "levels": [
+    2
+  ],
+  "optional_d9_generalization": false,
+  "p_values": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "minimum_shots_per_point": 20000,
+  "maximum_shots_per_point": 100000,
+  "sampling_batch_size": 2000,
+  "minimum_unsafe_events": 100,
+  "reconciliation_shots_per_point": 5000,
+  "reference_audit_shots_per_point": 20,
+  "bp_max_iterations": 60,
+  "full_osd_order_by_distance": {
+    "5": 3,
+    "9": 1
+  },
+  "full_osd_candidate_budget_by_distance": {
+    "5": 23,
+    "9": 33
+  },
+  "full_osd_combination_sweep": "cpp_combination_sweep",
+  "fixed_snapshot_iterations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "feature_windows": [
+    3,
+    5,
+    8
+  ],
+  "primary_window": 5,
+  "top_k_values": [
+    5,
+    10,
+    15
+  ],
+  "primary_top_k": 10,
+  "risk_percentile_edges": [
+    0.0,
+    0.5,
+    0.8,
+    0.9,
+    0.95,
+    0.99,
+    1.0
+  ],
+  "gate_thresholds": [
+    0.5,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.99
+  ],
+  "utility_penalties": [
+    1,
+    2,
+    5,
+    10,
+    20
+  ],
+  "primary_utility_penalty": 10,
+  "prefix_buffer_sizes": [
+    1,
+    3,
+    5,
+    8,
+    -1
+  ],
+  "adaptive_order_thresholds": [
+    0.5,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "development_fit_fraction": 0.5,
+  "development_calibration_fraction": 0.25,
+  "stage2_selector_fit_fraction": 0.5,
+  "calibration_bins": 10,
+  "bootstrap_repetitions": 1000,
+  "temporal_shuffle_repetitions": 10,
+  "scaling_values": [
+    0.7,
+    0.8,
+    1.0,
+    1.2
+  ],
+  "damping_values": [
+    0.0,
+    0.2,
+    0.5
+  ],
+  "parameter_scan_case_limit": 100,
+  "random_seed": 20260911,
+  "tesseract_beam": 8,
+  "tesseract_pq_limit": 200000
+}

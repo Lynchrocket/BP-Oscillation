@@ -1,0 +1,16 @@
+{
+  "print_level": 2,
+  "diagnostic_iterations": 50,
+  "benchmark_iterations": 60,
+  "ms_scaling_factor": 1.0,
+  "late_fraction": 0.2,
+  "message_zero_tolerance": 1e-10,
+  "hidden_belief_threshold": 0.01,
+  "hidden_message_threshold": 0.1,
+  "unstable_normalized_residual_floor": 0.001,
+  "top_edge_count": 20,
+  "unstable_edge_quantile": 0.9,
+  "cases_per_class": 500,
+  "candidate_scan_limit": 10000,
+  "random_seed": 20260904
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "inputs": {},
+  "outputs": {
+    "run": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1",
+    "stats": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats",
+    "trace": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/trace",
+    "config": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/config",
+    "plots": "experiment/research/osd/stages/02_intervention_gating/plots/principle_fixes_v1",
+    "config_json": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/config/config.json",
+    "unbiased_intervention_cases_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/trace/unbiased_intervention_cases.csv",
+    "forced_osd_reconciliation_trials_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/trace/forced_osd_reconciliation_trials.csv",
+    "forced_osd_mismatches_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/trace/forced_osd_mismatches.csv",
+    "forced_osd_reconciliation_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/forced_osd_reconciliation.csv",
+    "intervention_label_summary_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/intervention_label_summary.csv",
+    "stage1_gate_ablation_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/stage1_gate_ablation.csv",
+    "stage1_calibration_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/stage1_calibration.csv",
+    "risk_stratified_intervention_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/risk_stratified_intervention.csv",
+    "intervention_threshold_frontier_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/intervention_threshold_frontier.csv",
+    "provisional_full_osd_gate_selection_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/provisional_full_osd_gate_selection.csv",
+    "stage2_snapshot_features_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/trace/stage2_snapshot_features.csv",
+    "stage2_snapshot_prediction_diagnostic_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/stage2_snapshot_prediction_diagnostic.csv",
+    "stage2_selector_ablation_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/stage2_selector_ablation.csv",
+    "stage2_prefix_oracle_fixed_t_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/stage2_prefix_oracle_fixed_t.csv",
+    "stage2_temporal_shuffle_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/stage2_temporal_shuffle.csv",
+    "prefix_buffer_recovery_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/prefix_buffer_recovery.csv",
+    "cost_sensitive_gate_selection_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/cost_sensitive_gate_selection.csv",
+    "deployed_two_stage_gate_frontier_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/deployed_two_stage_gate_frontier.csv",
+    "gated_adaptive_osd_order_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/gated_adaptive_osd_order.csv",
+    "recovery_policy_comparison_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/recovery_policy_comparison.csv",
+    "endpoint_vs_final_transitions_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/endpoint_vs_final_transitions.csv",
+    "bp_parameter_two_stage_scan_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/bp_parameter_two_stage_scan.csv",
+    "final_two_stage_benchmark_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/final_two_stage_benchmark.csv",
+    "two_stage_instability_ablation_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/two_stage_instability_ablation.csv",
+    "accuracy_cost_frontier_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/accuracy_cost_frontier.csv",
+    "experiment_status_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/experiment_status.csv",
+    "stage2_selector_trials_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/trace/stage2_selector_trials.csv",
+    "two_stage_decoder_trials_csv": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/trace/two_stage_decoder_trials.csv"
+  },
+  "templates": {
+    "name": "experiment/data/osd/osd_handoff/02_intervention_gating/principle_fixes_v1/stats/{name}"
+  }
+}

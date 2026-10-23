@@ -1,0 +1,22 @@
+{
+  "print_level": 2,
+  "benchmark_iterations": 60,
+  "diagnostic_iterations": 50,
+  "robustness_iterations": 100,
+  "ms_scaling_factor": 1.0,
+  "late_fraction": 0.2,
+  "message_zero_tolerance": 1e-10,
+  "stability_thresholds": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "threshold_quantile_count": 40,
+  "validation_cases": 12,
+  "native_validation_tolerance": 1e-10,
+  "diagnostic_candidate_limit": null,
+  "matched_cases_per_class": 500,
+  "random_seed": 20260906
+}

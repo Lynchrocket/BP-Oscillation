@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "print_level": 2,
+  "reuse_existing_data": true,
+  "random_seed": 20261022,
+  "cases": [
+    {
+      "distance": 5,
+      "weight": 2,
+      "sampling": "enumerate",
+      "sample_count": null
+    },
+    {
+      "distance": 9,
+      "weight": 2,
+      "sampling": "enumerate",
+      "sample_count": null
+    },
+    {
+      "distance": 9,
+      "weight": 4,
+      "sampling": "sample",
+      "sample_count": 5000
+    }
+  ],
+  "p_grids": {
+    "high_p": {
+      "start": 0.05,
+      "stop": 0.1,
+      "count": 30
+    },
+    "low_p": {
+      "start": 1e-08,
+      "stop": 0.05,
+      "count": 30
+    }
+  },
+  "alpha_grid": {
+    "start": 0.5,
+    "stop": 2.0,
+    "count": 10,
+    "extra": [
+      0.8,
+      1.0,
+      1.2,
+      3.0
+    ]
+  },
+  "low_p_alphas": [
+    0.8,
+    1.0
+  ],
+  "max_iter": 60,
+  "d_rounds": 1,
+  "p_meas": 0.0,
+  "osd_order": 10,
+  "osd_method": "osd_cs",
+  "tesseract_beam": 8,
+  "tesseract_pq_limit": 200000
+}

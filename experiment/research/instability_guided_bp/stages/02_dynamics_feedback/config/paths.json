@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "instability_graph": "experiment/data/input_snapshots/instability_guided_bp/02_dynamics_feedback/instability_graph",
+    "error_weight": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight",
+    "trace": "experiment/data/input_snapshots/instability_guided_bp/02_dynamics_feedback/instability_graph/trace",
+    "graph_intervention_population_cases_csv": "experiment/data/input_snapshots/instability_guided_bp/02_dynamics_feedback/instability_graph/trace/graph_intervention_population_cases.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main",
+    "stats": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats",
+    "trace": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace",
+    "config": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/config",
+    "plots": "experiment/research/instability_guided_bp/stages/02_dynamics_feedback/plots/main",
+    "next_instability_input_audit_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/next_instability_input_audit.csv",
+    "raw_candidate_trials_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace/raw_candidate_trials.csv",
+    "raw_gain_vs_repair_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/raw_gain_vs_repair.csv",
+    "instability_metric_ablation_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/instability_metric_ablation.csv",
+    "overlap_gain_joint_analysis_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/overlap_gain_joint_analysis.csv",
+    "hybrid_targeting_ablation_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/hybrid_targeting_ablation.csv",
+    "unbiased_candidate_validation_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/unbiased_candidate_validation.csv",
+    "trajectory_redirection_analysis_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/trajectory_redirection_analysis.csv",
+    "early_intervention_trials_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace/early_intervention_trials.csv",
+    "early_intervention_stable_wrong_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/early_intervention_stable_wrong.csv",
+    "iterative_feedback_trajectories_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace/iterative_feedback_trajectories.csv",
+    "fixed_region_feedback_summary_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/fixed_region_feedback_summary.csv",
+    "feedback_stopping_cases_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace/feedback_stopping_cases.csv",
+    "feedback_stopping_rules_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/feedback_stopping_rules.csv",
+    "intervention_gating_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/intervention_gating.csv",
+    "candidate_budget_trials_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace/candidate_budget_trials.csv",
+    "candidate_budget_ablation_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/candidate_budget_ablation.csv",
+    "final_decoder_development_tuning_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/final_decoder_development_tuning.csv",
+    "candidate_structure_analysis_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/candidate_structure_analysis.csv",
+    "failure_type_mechanism_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/failure_type_mechanism.csv",
+    "cross_distance_trials_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace/cross_distance_trials.csv",
+    "raw_gain_cross_distance_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/raw_gain_cross_distance.csv",
+    "final_stochastic_trials_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/trace/final_stochastic_trials.csv",
+    "final_stochastic_benchmark_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/final_stochastic_benchmark.csv",
+    "next_native_validation_csv": "experiment/data/decoder_intervention/instability_guided_bp/02_dynamics_feedback/main/stats/next_native_validation.csv"
+  },
+  "templates": {}
+}

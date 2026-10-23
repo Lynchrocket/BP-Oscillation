@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "reference": "experiment/data/input_snapshots/noise_model_sanity_check/root/reference",
+    "2026_04_14_data_err_rates_c_ldpc_dec_bposd_dist_5_r_3_shots_1_0e_09_txt": "experiment/data/input_snapshots/noise_model_sanity_check/root/reference/2026-04-14,data=err_rates,c=ldpc,dec=bposd,dist=5,r=3,shots=1.0e+09.txt",
+    "2026_04_15_data_err_rates_c_ldpc_dec_tesseract_dist_5_r_3_shots_1_0e_09_txt": "experiment/data/input_snapshots/noise_model_sanity_check/root/reference/2026-04-15,data=err_rates,c=ldpc,dec=tesseract,dist=5,r=3,shots=1.0e+09.txt"
+  },
+  "outputs": {
+    "run": "experiment/data/noise_validation/noise_model_sanity_check/root/main",
+    "stats": "experiment/data/noise_validation/noise_model_sanity_check/root/main/stats",
+    "trace": "experiment/data/noise_validation/noise_model_sanity_check/root/main/trace",
+    "config": "experiment/data/noise_validation/noise_model_sanity_check/root/main/config",
+    "plots": "experiment/non_exploratory/check/plots/noise_model_sanity_check/main",
+    "bposd_tesseract_d_5_r_3_csv": "experiment/data/noise_validation/noise_model_sanity_check/root/main/stats/bposd_tesseract_d=5_r=3.csv"
+  },
+  "templates": {}
+}

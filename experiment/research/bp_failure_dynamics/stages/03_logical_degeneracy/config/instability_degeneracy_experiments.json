@@ -1,0 +1,39 @@
+{
+  "print_level": 2,
+  "benchmark_iterations": 60,
+  "diagnostic_iterations": 50,
+  "long_iterations": 100,
+  "ms_scaling_factor": 1.0,
+  "late_fraction": 0.2,
+  "message_zero_tolerance": 1e-10,
+  "stability_thresholds": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "primary_stability_threshold": 1e-08,
+  "stable_matched_pairs": 100,
+  "unstable_matched_pairs": 100,
+  "exact_enumeration_chunk_size": 8192,
+  "exact_max_nullity": 20,
+  "susceptibility_k_values": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "perturbation_eta_values": [
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "num_perturbations": 50,
+  "random_subset_replicates": 5,
+  "probability_clip": 1e-12,
+  "cv_folds": 5,
+  "bootstrap_repetitions": 2000,
+  "random_seed": 20260907
+}

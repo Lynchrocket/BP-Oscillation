@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "benchmark": "experiment/data/input_snapshots/force_osd_failures/root/benchmark",
+    "2026_05_28_circuit_level_1_perfect_meas_shots_1000000000_csv": "experiment/data/input_snapshots/force_osd_failures/root/benchmark/2026-05-28,circuit_level-1,perfect meas,shots=1000000000.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/failure_analysis/force_osd_failures/root/main",
+    "stats": "experiment/data/failure_analysis/force_osd_failures/root/main/stats",
+    "trace": "experiment/data/failure_analysis/force_osd_failures/root/main/trace",
+    "config": "experiment/data/failure_analysis/force_osd_failures/root/main/config",
+    "plots": "experiment/research/force_osd_failures/plots/main",
+    "force_OSD": "experiment/data/failure_analysis/force_osd_failures/root/main/trace/force_OSD",
+    "bfts_cases_csv": "experiment/data/failure_analysis/force_osd_failures/root/main/trace/force_OSD/bfts_cases.csv",
+    "bs_cases_csv": "experiment/data/failure_analysis/force_osd_failures/root/main/trace/force_OSD/bs_cases.csv",
+    "bstf_cases_csv": "experiment/data/failure_analysis/force_osd_failures/root/main/trace/force_OSD/bstf_cases.csv",
+    "bf_cases_csv": "experiment/data/failure_analysis/force_osd_failures/root/main/trace/force_OSD/bf_cases.csv"
+  },
+  "templates": {}
+}

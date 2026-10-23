@@ -1,0 +1,67 @@
+[build-system]
+requires = [
+  "setuptools>=80,<81",
+  "wheel>=0.46,<0.47",
+  "Cython>=3.2,<3.3",
+  "numpy>=2.2.5,<=2.2.6",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qec-decoder"
+version = "0.1.0"
+description = "quantum error correction decoders."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "BPOTF>=2.0,<3",
+  "ldpc>=2.4,<2.5",
+  "ldpc_modified==2.4.1",
+  "matplotlib>=3.10,<3.11",
+  "networkx>=3.6,<3.7",
+  "numpy>=2.2.5,<=2.2.6",
+  "pymatching>=2.3,<2.4",
+  "qldpc==0.2.8",
+  "scipy>=1.17,<1.18",
+  "sinter>=1.15,<1.16",
+  "stim>=1.16.dev1770241571,<1.17",
+  "sympy>=1.14,<1.15",
+  "tesseract-decoder>=0.1.1.dev20260307013347,<0.2",
+  "tqdm>=4.67,<5",
+]
+
+[project.optional-dependencies]
+bench = [
+  "beliefmatching==0.2.0",
+  "ipython>=9.11,<10",
+  "matplotlib-venn>=1.1,<1.2",
+  "pandas>=3.0,<3.1",
+  "plotly>=6.7,<6.8",
+  "scikit-learn>=1.8,<1.9",
+  "seaborn>=0.13,<0.14",
+]
+dev = [
+  "Cython>=3.2,<3.3",
+  "flake8>=7.3,<7.4",
+  "ipykernel>=7.2,<7.3",
+  "pytest>=9.0,<9.1",
+]
+bb = [
+  "bposd==2.1",
+  "lightstim==0.1.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["noises", "noises_ca"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["codes", "codes.*", "decoders", "decoders.*"]
+exclude = ["decoders.lib", "decoders.lib.*"]
+namespaces = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

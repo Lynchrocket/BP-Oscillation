@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "failure_cases_with_errors": "experiment/data/failure_analysis/failure_regions/root/main/trace/circuit_level/cases/circuit_level-1,perfect meas,shots=1000000/with_errors",
+    "ca_bfts_cases_csv": "experiment/data/failure_analysis/failure_regions/root/main/trace/circuit_level/cases/circuit_level-1,perfect meas,shots=1000000/with_errors/ca_bfts_cases.csv",
+    "ca_bstf_cases_csv": "experiment/data/failure_analysis/failure_regions/root/main/trace/circuit_level/cases/circuit_level-1,perfect meas,shots=1000000/with_errors/ca_bstf_cases.csv",
+    "ca_bs_cases_csv": "experiment/data/failure_analysis/failure_regions/root/main/trace/circuit_level/cases/circuit_level-1,perfect meas,shots=1000000/with_errors/ca_bs_cases.csv",
+    "ca_bf_cases_csv": "experiment/data/failure_analysis/failure_regions/root/main/trace/circuit_level/cases/circuit_level-1,perfect meas,shots=1000000/with_errors/ca_bf_cases.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/graph_analysis/trapping_sets/02_candidates/main",
+    "stats": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/stats",
+    "trace": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/trace",
+    "config": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/config",
+    "plots": "experiment/research/trapping_sets/stages/02_candidates/plots/main",
+    "circuit_level": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/trace/circuit_level",
+    "candidate_error_weight_distribution_csv": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/stats/candidate_error_weight_distribution.csv",
+    "cell_0016_1_png": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0016_1.png",
+    "cell_0019_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0019_1.html",
+    "cell_0020_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0020_1.html",
+    "cell_0021_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0021_1.html",
+    "cell_0022_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0022_1.html",
+    "cell_0023_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0023_1.html",
+    "cell_0024_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0024_1.html",
+    "cell_0025_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0025_1.html",
+    "cell_0026_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0026_1.html",
+    "cell_0028_1_html": "experiment/research/trapping_sets/stages/02_candidates/plots/main/cell_0028_1.html",
+    "TS_failure_cases_feather": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/trace/circuit_level/trapping_set/CA_9_2_5,p=0.1,(a_max=6,b_max=10)/TS_failure_cases.feather",
+    "TS_overview_csv": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/stats/circuit_level/trapping_set/CA_9_2_5,p=0.1,(a_max=6,b_max=10)/TS_overview.csv"
+  },
+  "templates": {
+    "parameter_1_p_parameter_2_a_max_a_max_b_max_b_max": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/trace/circuit_level/trapping_set/{parameter_1},p={parameter_2},(a_max={a_max},b_max={b_max})",
+    "TS_overview_csv": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/trace/circuit_level/trapping_set/{parameter_1},p={parameter_2},(a_max={a_max},b_max={b_max})/TS_overview.csv",
+    "TS_failure_cases_feather": "experiment/data/graph_analysis/trapping_sets/02_candidates/main/trace/circuit_level/trapping_set/{parameter_1},p={parameter_2},(a_max={a_max},b_max={b_max})/TS_failure_cases.feather"
+  }
+}

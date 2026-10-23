@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "inputs": {},
+  "outputs": {
+    "run": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main",
+    "stats": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/stats",
+    "trace": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/trace",
+    "config": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/config",
+    "plots": "experiment/research/low_weight_failures/plots/prior_scaling",
+    "summary_csv": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/stats/parameter_summary.csv",
+    "boundary_summary_csv": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/stats/critical_alpha_distribution.csv"
+  },
+  "templates": {
+    "supports_csv": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/trace/distance_{distance}/weight_{weight}/supports.csv",
+    "point_cases_csv": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/trace/distance_{distance}/weight_{weight}/{grid}/p_{p_index:02d}_alpha_{alpha_index:02d}.csv",
+    "boundary_cases_csv": "experiment/data/failure_analysis/low_weight_failures/prior_scaling/main/trace/distance_{distance}/weight_{weight}/critical_alpha/{grid}/p_{p_index:02d}.csv",
+    "phase_plot": "experiment/research/low_weight_failures/plots/prior_scaling/distance_{distance}_weight_{weight}_{grid}.png",
+    "example_plot": "experiment/research/low_weight_failures/plots/prior_scaling/distance_{distance}_weight_{weight}_example.png"
+  }
+}

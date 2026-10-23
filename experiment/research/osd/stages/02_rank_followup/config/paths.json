@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "reliability_dynamics": "experiment/data/input_snapshots/osd_reliability/02_rank_followup/reliability_dynamics",
+    "event_screen_csv": "experiment/data/input_snapshots/osd_reliability/02_rank_followup/reliability_dynamics/{_input_run}/event_screen.csv",
+    "unbiased_cases_csv": "experiment/data/input_snapshots/osd_reliability/02_rank_followup/reliability_dynamics/{_input_run}/unbiased_cases.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1",
+    "stats": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats",
+    "trace": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace",
+    "config": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/config",
+    "plots": "experiment/research/osd/stages/02_rank_followup/plots/principle_fixes_v1",
+    "config_json": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/config/config.json",
+    "followup_case_classification_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/followup_case_classification.csv",
+    "followup_cohort_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/followup_cohort.csv",
+    "experiment_status_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/experiment_status.csv",
+    "repair_rank_trajectories_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/repair_rank_trajectories.csv",
+    "misranked_variables_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/misranked_variables.csv",
+    "repair_topk_coverage_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/repair_topk_coverage.csv",
+    "repair_rank_vs_osd_success_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/repair_rank_vs_osd_success.csv",
+    "misranking_feature_ablation_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/misranking_feature_ablation.csv",
+    "oracle_rank_trials_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/oracle_rank_trials.csv",
+    "snapshot_oracle_trials_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/snapshot_oracle_trials.csv",
+    "oracle_rank_ceiling_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/oracle_rank_ceiling.csv",
+    "snapshot_oracle_ceiling_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/snapshot_oracle_ceiling.csv",
+    "snapshot_runtime_features_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/snapshot_runtime_features.csv",
+    "snapshot_rule_benchmark_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/snapshot_rule_benchmark.csv",
+    "rank_correction_trials_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/rank_correction_trials.csv",
+    "rank_correction_selected_parameters_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/rank_correction_selected_parameters.csv",
+    "rank_correction_ablation_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/rank_correction_ablation.csv",
+    "pairwise_rank_trials_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/pairwise_rank_trials.csv",
+    "pairwise_rank_model_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/pairwise_rank_model.csv",
+    "bp_parameter_rank_trials_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/bp_parameter_rank_trials.csv",
+    "bp_parameter_rank_quality_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/bp_parameter_rank_quality.csv",
+    "final_gap_trials_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/final_gap_trials.csv",
+    "final_gap_regime_audit_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/final_gap_regime_audit.csv",
+    "final_gap_regime_benchmark_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/final_gap_regime_benchmark.csv",
+    "selective_rank_features_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/selective_rank_features.csv",
+    "selective_rank_osd_frontier_csv": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/selective_rank_osd_frontier.csv"
+  },
+  "templates": {
+    "name": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/stats/{name}",
+    "name_1": "experiment/data/osd/osd_reliability/02_rank_followup/principle_fixes_v1/trace/{name}"
+  }
+}

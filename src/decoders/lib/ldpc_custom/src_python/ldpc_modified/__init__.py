@@ -1,0 +1,28 @@
+import importlib.metadata
+
+__version__ = importlib.metadata.version("ldpc_modified")
+
+from ldpc_modified.bp_decoder import BpDecoder
+from ldpc_modified.bposd_decoder import BpOsdDecoder
+from ldpc_modified.bplsd_decoder import BpLsdDecoder
+from ldpc_modified.bp_decoder import SoftInfoBpDecoder
+from ldpc_modified.belief_find_decoder import BeliefFindDecoder
+from ldpc_modified.sinter_decoders import SinterBpOsdDecoder
+from ldpc_modified.union_find_decoder import UnionFindDecoder
+
+from ldpc_modified.adaptive_bp_decoder import AdaptiveBpDecoder
+from ldpc_modified.expanded_adaptive_bp_decoder import ExpandedAdaptiveBpDecoder
+from ldpc_modified.structural_adaptive_bp_decoder import StructuralAdaptiveBpDecoder
+from ldpc_modified.region_adaptive_bp_decoder import RegionAdaptiveBpDecoder
+from ldpc_modified.mbbp_ld_decoder import MbbpLdDecoder
+from ldpc_modified.adaptive_bposd_decoder import AdaptiveBpOsdDecoder
+from ldpc_modified.quotient_bp_decoder import QuotientBpDecoder
+from ldpc_modified.quotient_split_decoder import QuotientSplitDecoder
+from ldpc_modified.recursive_loop_core_bp_decoder import RecursiveLoopCoreRefiner
+from ldpc_modified.recursive_frontier_bp_decoder import RecursiveFrontierRefiner
+from ldpc_modified.recursive_residual_interface_bp_decoder import RecursiveResidualInterfaceRefiner
+from ldpc_modified.correlation_adaptive_bp_decoder import CorrelationAdaptiveRegionRefiner
+
+# Legacy syntax
+from ldpc_modified.bp_decoder import bp_decoder
+from ldpc_modified.bposd_decoder import bposd_decoder

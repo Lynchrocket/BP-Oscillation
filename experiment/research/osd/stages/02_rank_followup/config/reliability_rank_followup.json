@@ -1,0 +1,148 @@
+{
+  "schema_version": 3,
+  "print_level": 2,
+  "smoke_mode": false,
+  "reuse_existing_data": true,
+  "levels": [
+    2,
+    3
+  ],
+  "primary_level": 2,
+  "instance_weights_by_level": {
+    "2": [
+      2,
+      3
+    ],
+    "3": [
+      4,
+      5
+    ]
+  },
+  "event_p_values": [
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "event_gap_targets_by_level": {
+    "2": 150,
+    "3": 75
+  },
+  "event_batch_size": 2000,
+  "event_max_shots_per_point": 100000,
+  "unbiased_p_values": [
+    0.002,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "unbiased_shots_per_point": 5000,
+  "bp_iterations": 60,
+  "snapshot_iterations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    16,
+    20,
+    30,
+    40,
+    60
+  ],
+  "osd_orders_by_level": {
+    "2": [
+      0,
+      1,
+      3
+    ],
+    "3": [
+      0,
+      1
+    ]
+  },
+  "top_k_values": [
+    5,
+    10,
+    20
+  ],
+  "temporal_windows": [
+    3,
+    5,
+    8,
+    12,
+    20
+  ],
+  "instability_beta_values": [
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "sign_gamma_values": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "conflict_beta_values": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "rank_threshold_values": [
+    0.9,
+    0.95,
+    0.98
+  ],
+  "rank_persistence_values": [
+    2,
+    3,
+    4
+  ],
+  "snapshot_stability_window": 3,
+  "message_residual_quantiles": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "combined_weight_values": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "development_fraction": 0.5,
+  "bootstrap_repetitions": 1000,
+  "random_seed": 20260909,
+  "scaling_values": [
+    0.7,
+    0.8,
+    1.0,
+    1.2
+  ],
+  "damping_values": [
+    0.0,
+    0.2,
+    0.5
+  ],
+  "schedule_values": [
+    "parallel",
+    "serial"
+  ],
+  "iteration_values": [
+    10,
+    20,
+    40,
+    60
+  ],
+  "hyperparameter_case_limit": 200,
+  "message_zero_tolerance": 1e-10,
+  "tesseract_beam": 8,
+  "tesseract_pq_limit": 200000
+}

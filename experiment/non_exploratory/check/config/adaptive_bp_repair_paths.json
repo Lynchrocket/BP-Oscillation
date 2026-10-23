@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "error_weight": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight",
+    "weight_2_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_data.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/decoder_intervention/adaptive_bp_repair/root/main",
+    "stats": "experiment/data/decoder_intervention/adaptive_bp_repair/root/main/stats",
+    "trace": "experiment/data/decoder_intervention/adaptive_bp_repair/root/main/trace",
+    "config": "experiment/data/decoder_intervention/adaptive_bp_repair/root/main/config",
+    "plots": "experiment/non_exploratory/check/plots/adaptive_bp_repair/main"
+  },
+  "templates": {}
+}

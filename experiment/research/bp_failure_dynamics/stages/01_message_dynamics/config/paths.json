@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "error_weight": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight",
+    "weight_2_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_data.csv",
+    "weight_3_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_3_data.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main",
+    "stats": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats",
+    "trace": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace",
+    "config": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/config",
+    "plots": "experiment/research/bp_failure_dynamics/stages/01_message_dynamics/plots/main",
+    "weight2_data_audit_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/weight2_data_audit.csv",
+    "representative_case_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/representative_case_summary.csv",
+    "matched_sample_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/matched_sample_metrics.csv",
+    "failure_success_group_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/failure_success_group_summary.csv",
+    "unique_trajectory_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/unique_trajectory_metrics.csv",
+    "matched_failure_enrichment_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/matched_failure_enrichment.csv",
+    "representative_hidden_variables_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/representative_hidden_variables.csv",
+    "hidden_instability_group_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/hidden_instability_group_summary.csv",
+    "representative_unstable_subgraph_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/representative_unstable_subgraph_summary.csv",
+    "stability_input_audit_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/stability_input_audit.csv",
+    "instrumented_native_validation_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/instrumented_native_validation_summary.csv",
+    "diagnostic_population_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/diagnostic_population_metrics.csv",
+    "exact_error_match_audit_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/exact_error_match_audit.csv",
+    "syndrome_consistent_vs_residual_threshold_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/syndrome_consistent_vs_residual_threshold.csv",
+    "four_outcome_group_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/four_outcome_group_summary.csv",
+    "syndrome_vs_logical_separation_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/syndrome_vs_logical_separation.csv",
+    "matched_logical_wrong_enrichment_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/matched_logical_wrong_enrichment.csv",
+    "stable_valid_logical_wrong_fraction_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/stable_valid_logical_wrong_fraction.csv",
+    "weight2_failure_trajectory_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/weight2_failure_trajectory_summary.csv",
+    "weight2_failure_iteration_trajectories_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/weight2_failure_iteration_trajectories.csv",
+    "residual_prediction_auc_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/residual_prediction_auc.csv",
+    "exact_error_match_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/stats/exact_error_match_summary.csv",
+    "success_edge_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/success_edge_metrics.csv",
+    "failure_message_history_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/failure_message_history.csv",
+    "failure_edge_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/failure_edge_metrics.csv",
+    "success_variable_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/success_variable_metrics.csv",
+    "success_message_history_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/success_message_history.csv",
+    "failure_variable_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/failure_variable_metrics.csv"
+  },
+  "templates": {
+    "name__message_history_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/{name}_message_history.csv",
+    "name__edge_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/{name}_edge_metrics.csv",
+    "name__variable_metrics_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/01_message_dynamics/main/trace/{name}_variable_metrics.csv"
+  }
+}

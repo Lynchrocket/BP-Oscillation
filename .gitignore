@@ -1,0 +1,59 @@
+# Python caches and package metadata
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments and editor settings
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build directories and compiled artifacts
+/build/
+/dist/
+*.so
+*.pyd
+*.dll
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.whl
+
+# C sources generated from the project's Cython modules
+/src/decoders/cython/cython_core/bp_core.c
+/src/decoders/cython/cython_core/osd_core.c
+/src/decoders/cython/cython_core/tesseract_core.c
+
+experiment/data/
+experiment/data_packedup/
+
+# # Experiment data files larger than 200 MB
+# /experiment/data/decoder_gap/gap_mechanisms/02_pcm_fixed_points/main/trace/E1_candidate_details.csv
+# /experiment/data/decoder_gap/gap_mechanisms/02_pcm_fixed_points/main/trace/E1_pcm_ensemble_trials.csv
+# /experiment/data/decoder_gap/gap_mechanisms/02_pcm_fixed_points/main/trace/population.csv
+# /experiment/data/decoder_gap/gap_mechanisms/02_pcm_fixed_points/main/trace/C1_C2_targeted_candidates.csv
+# /experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/d=9_weight_4_data.csv
+# /experiment/data/osd/osd_reliability/02_rank_followup/main/trace/misranked_variables.csv
+# /experiment/data_packedup/decoder_gap/gap_mechanisms/02_pcm_fixed_points/main/trace/population.csv
+# /experiment/data_packedup/decoder_gap/gap_mechanisms/02_pcm_fixed_points/main/trace/C1_C2_targeted_candidates.csv
+# /experiment/data_packedup/graph_analysis/trapping_sets/02_candidates/main/trace/circuit_level/trapping_set/CA_9_2_5,p=0.1,(a_max=6,b_max=10)/TS_failure_cases.feather
+# /experiment/data_packedup/osd/osd_reliability/02_rank_followup/main/trace/misranked_variables.csv

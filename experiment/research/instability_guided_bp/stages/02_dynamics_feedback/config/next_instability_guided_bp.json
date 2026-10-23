@@ -1,0 +1,78 @@
+{
+  "print_level": 2,
+  "benchmark_iterations": 60,
+  "diagnostic_iterations": 50,
+  "long_iterations": 100,
+  "probe_iterations": 8,
+  "candidate_test_iterations": [
+    3,
+    5
+  ],
+  "primary_candidate_test_iterations": 5,
+  "late_fraction": 0.2,
+  "message_zero_tolerance": 1e-10,
+  "native_validation_tolerance": 1e-10,
+  "ms_scaling_factor": 1.0,
+  "stability_threshold": 1e-08,
+  "top_k_values": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "primary_top_k": 8,
+  "composite_weights": [
+    0.5,
+    0.25,
+    0.25
+  ],
+  "candidate_max_row_weights": [
+    4,
+    5,
+    6,
+    8
+  ],
+  "primary_max_row_weight": 8,
+  "candidate_screen_limit": 30,
+  "samples_per_outcome": 100,
+  "random_support_repetitions": 100,
+  "targeting_random_seeds": 5,
+  "gamma_min_values": [
+    0.0,
+    0.1
+  ],
+  "gamma_max_values": [
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "primary_gamma_min": 0.1,
+  "primary_gamma_max": 0.7,
+  "alpha_min_values": [
+    0.5,
+    0.7,
+    0.8
+  ],
+  "alpha_max": 1.0,
+  "primary_alpha_min": 0.7,
+  "adaptation_rounds": [
+    2,
+    3,
+    4
+  ],
+  "cross_distance_levels": [
+    1,
+    2,
+    3
+  ],
+  "cross_distance_error_weights": [
+    2,
+    3
+  ],
+  "cross_distance_cases_per_stratum": 40,
+  "cross_distance_p_limit": 6,
+  "bootstrap_repetitions": 2000,
+  "cv_folds": 5,
+  "random_seed": 20260908
+}

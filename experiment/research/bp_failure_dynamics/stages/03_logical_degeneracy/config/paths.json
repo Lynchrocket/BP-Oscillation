@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "error_weight": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight",
+    "weight_2_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_data.csv",
+    "weight_3_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_3_data.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main",
+    "stats": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats",
+    "trace": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/trace",
+    "config": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/config",
+    "plots": "experiment/research/bp_failure_dynamics/stages/03_logical_degeneracy/plots/main",
+    "instability_degeneracy_input_audit_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/instability_degeneracy_input_audit.csv",
+    "instability_degeneracy_population_cases_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/trace/instability_degeneracy_population_cases.csv",
+    "instability_degeneracy_population_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/instability_degeneracy_population_summary.csv",
+    "instability_degeneracy_stability_sensitivity_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/instability_degeneracy_stability_sensitivity.csv",
+    "logical_ambiguity_selection_audit_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/logical_ambiguity_selection_audit.csv",
+    "exact_logical_mass_cases_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/trace/exact_logical_mass_cases.csv",
+    "exact_logical_mass_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/exact_logical_mass_summary.csv",
+    "logical_ambiguity_group_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/logical_ambiguity_group_summary.csv",
+    "logical_ambiguity_paired_comparison_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/logical_ambiguity_paired_comparison.csv",
+    "logical_ambiguity_auc_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/logical_ambiguity_auc.csv",
+    "logical_ambiguity_conditional_curves_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/logical_ambiguity_conditional_curves.csv",
+    "logical_perturbation_trials_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/trace/logical_perturbation_trials.csv",
+    "logical_susceptibility_cases_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/trace/logical_susceptibility_cases.csv",
+    "logical_susceptibility_summary_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/logical_susceptibility_summary.csv",
+    "logical_susceptibility_group_comparison_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/logical_susceptibility_group_comparison.csv",
+    "susceptibility_vs_logical_gap_csv": "experiment/data/bp_dynamics/bp_failure_dynamics/03_logical_degeneracy/main/stats/susceptibility_vs_logical_gap.csv"
+  },
+  "templates": {}
+}

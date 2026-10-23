@@ -1,0 +1,15 @@
+[submodule "BPOTF"]
+	path = src/decoders/lib/outer/BPOTF
+	url = https://github.com/Ima96/BPOTF.git
+[submodule "tesseract-decoder"]
+	path = src/decoders/lib/outer/tesseract-decoder
+	url = https://github.com/quantumlib/tesseract-decoder.git
+[submodule "LightStim"]
+	path = src/decoders/lib/outer/LightStim
+	url = https://github.com/QuTone/LightStim.git
+[submodule "BivariateBicycleCodes"]
+	path = src/decoders/lib/outer/BivariateBicycleCodes
+	url = https://github.com/sbravyi/BivariateBicycleCodes.git
+[submodule "ldpc"]
+	path = src/decoders/lib/outer/ldpc
+	url = https://github.com/quantumgizmos/ldpc.git

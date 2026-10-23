@@ -1,0 +1,108 @@
+{
+  "schema_version": 8,
+  "print_level": 2,
+  "smoke_mode": false,
+  "reuse_existing_data": true,
+  "primary_levels": [
+    2
+  ],
+  "validation_levels": [
+    3
+  ],
+  "p_values": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "validation_p_values": [
+    0.02,
+    0.03,
+    0.05
+  ],
+  "minimum_shots_per_point": 20000,
+  "maximum_shots_per_point": 100000,
+  "sampling_batch_size": 2000,
+  "target_gap_cases_per_point": 100,
+  "analysis_gap_limit_per_point": 200,
+  "development_fraction": 0.5,
+  "bp_standard_iterations": 60,
+  "continued_iterations": 100,
+  "configured_full_osd_order_by_distance": {
+    "5": 3,
+    "9": 3
+  },
+  "osd_orders": [
+    0,
+    1,
+    2
+  ],
+  "basis_views": 50,
+  "redundant_views": 50,
+  "redundant_rows_per_view": [
+    1,
+    2,
+    3
+  ],
+  "candidate_max_row_weight": 10,
+  "restart_count": 100,
+  "basin_case_limit": 50,
+  "restart_message_sigma": 0.05,
+  "fixed_point_tail_window": 3,
+  "fixed_point_belief_tolerance": 1e-06,
+  "logical_margin_control_limit_per_group": 100,
+  "logical_margin_quartiles": 4,
+  "ambiguity_top_k": 8,
+  "pcm_budgets": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "targeting_strategies": [
+    "random",
+    "instability",
+    "ambiguity",
+    "conflict",
+    "hybrid"
+  ],
+  "targeting_constructions": [
+    "top_m_distinct",
+    "progressive",
+    "diversity_constrained"
+  ],
+  "diversity_mu_values": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "selector_eta_values": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "selector_temperature_values": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "selector_confidence_epsilon": 1e-09,
+  "bootstrap_repetitions": 1000,
+  "final_pcm_views": 16,
+  "final_case_limit_per_point": -1,
+  "e1_stream_chunk_shots": 100,
+  "milp_time_limit_seconds": 60.0,
+  "random_seed": 20260913,
+  "tesseract_beam": 8,
+  "tesseract_pq_limit": 200000,
+  "tesseract_timing_shots_per_batch": 100,
+  "fixed_point_message_tolerance": 1e-06,
+  "fixed_point_state_tolerance": 1e-06
+}

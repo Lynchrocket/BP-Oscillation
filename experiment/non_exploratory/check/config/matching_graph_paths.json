@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "inputs": {},
+  "outputs": {
+    "run": "experiment/data/graph_analysis/ca_matching_graphs/root/main",
+    "stats": "experiment/data/graph_analysis/ca_matching_graphs/root/main/stats",
+    "trace": "experiment/data/graph_analysis/ca_matching_graphs/root/main/trace",
+    "config": "experiment/data/graph_analysis/ca_matching_graphs/root/main/config",
+    "plots": "experiment/non_exploratory/check/plots/matching_graph",
+    "circ_code1_svg": "experiment/non_exploratory/check/plots/matching_graph/mg_test/circ_code1.svg",
+    "mg_code1_svg": "experiment/non_exploratory/check/plots/matching_graph/mg_test/mg_code1.svg",
+    "circ_code2_svg": "experiment/non_exploratory/check/plots/matching_graph/mg_test/circ_code2.svg",
+    "mg_code2_svg": "experiment/non_exploratory/check/plots/matching_graph/mg_test/mg_code2.svg",
+    "circuit_level_round_1_svg": "experiment/non_exploratory/check/plots/matching_graph/mg_test/circuit-level,round=1.svg"
+  },
+  "templates": {}
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "failure_cases": "experiment/data/input_snapshots/low_weight_failures/root/failure_cases",
+    "bfts_cases_csv": "experiment/data/input_snapshots/low_weight_failures/root/failure_cases/bfts_cases.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/failure_analysis/low_weight_failures/root/main",
+    "stats": "experiment/data/failure_analysis/low_weight_failures/root/main/stats",
+    "trace": "experiment/data/failure_analysis/low_weight_failures/root/main/trace",
+    "config": "experiment/data/failure_analysis/low_weight_failures/root/main/config",
+    "plots": "experiment/research/low_weight_failures/plots/main",
+    "error_weight": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight",
+    "fixed_weight_discrepancy_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/stats/fixed_weight_discrepancy.csv",
+    "weight_2_p=np_geomspace(5e-2, 1e-1, 30)_alphas=np_linspace(0_5, 2_0, 10)_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(5e-2, 1e-1, 30)_alphas=np.linspace(0.5, 2.0, 10)_data.csv",
+    "weight_4_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_4_data.csv",
+    "weight_2_p=np_geomspace(1e-8, 5e-2, 30)_alpha=0_8_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(1e-8, 5e-2, 30)_alpha=0.8_data.csv",
+    "weight_2_p=np_geomspace(5e-2, 1e-1, 30)_alpha=1_2_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(5e-2, 1e-1, 30)_alpha=1.2_data.csv",
+    "weight_2_p=np_geomspace(5e-2, 1e-1, 30)_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(5e-2, 1e-1, 30)_data.csv",
+    "weight_2_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_data.csv",
+    "weight_2_tag_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_tag_data.csv",
+    "weight_2_p=np_geomspace(5e-2, 1e-1, 30)_alpha=3_0_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(5e-2, 1e-1, 30)_alpha=3.0_data.csv",
+    "weight_2_p=np_geomspace(5e-2, 1e-1, 30)_alphas=np_linspace(0_5, 2_0, 6)_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(5e-2, 1e-1, 30)_alphas=np.linspace(0.5, 2.0, 6)_data.csv",
+    "weight_2_p=np_geomspace(1e-8, 1e-1, 30)_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(1e-8, 1e-1, 30)_data.csv",
+    "weight_2_p=np_geomspace(5e-2, 1e-1, 30)_alpha=0_8_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_p=np.geomspace(5e-2, 1e-1, 30)_alpha=0.8_data.csv",
+    "weight_3_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_3_data.csv"
+  },
+  "templates": {
+    "weight__low_weight_failure_analysis_weight__data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_{low_weight_failure_analysis_weight}_data.csv",
+    "d_parameter_1__weight__error_weight_prob_weight__data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/d={parameter_1}_weight_{error_weight_prob_weight}_data.csv",
+    "weight__error_weight_prob_weight__p_np_geomspace_5e_2_1e_1_30__data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_{error_weight_prob_weight}_p=np.geomspace(5e-2, 1e-1, 30)_data.csv",
+    "weight__error_weight_prob_weight__p_np_geomspace_5e_2_1e_1_30__alpha_alpha__data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_{error_weight_prob_weight}_p=np.geomspace(5e-2, 1e-1, 30)_alpha={alpha}_data.csv",
+    "weight__error_weight_prob_weight__p_np_geomspace_1e_8_5e_2_30__alpha_alpha__data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_{error_weight_prob_weight}_p=np.geomspace(1e-8, 5e-2, 30)_alpha={alpha}_data.csv",
+    "weight__error_weight_prob_weight__p_np_geomspace_5e_2_1e_1_30__alphas_np_linspace_0_5_2_0_10__data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_{error_weight_prob_weight}_p=np.geomspace(5e-2, 1e-1, 30)_alphas=np.linspace(0.5, 2.0, 10)_data.csv"
+  }
+}

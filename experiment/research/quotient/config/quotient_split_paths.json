@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "error_weight": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight",
+    "weight_2_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_2_data.csv",
+    "weight_3_data_csv": "experiment/data/failure_analysis/low_weight_failures/root/main/trace/error_weight/weight_3_data.csv"
+  },
+  "outputs": {
+    "run": "experiment/data/quotient_decoding/quotient_split/root/main",
+    "stats": "experiment/data/quotient_decoding/quotient_split/root/main/stats",
+    "trace": "experiment/data/quotient_decoding/quotient_split/root/main/trace",
+    "config": "experiment/data/quotient_decoding/quotient_split/root/main/config",
+    "plots": "experiment/research/quotient"
+  },
+  "templates": {}
+}

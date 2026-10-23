@@ -1,0 +1,58 @@
+{
+  "print_level": 2,
+  "benchmark_iterations": 60,
+  "diagnostic_iterations": 50,
+  "long_iterations": 100,
+  "ms_scaling_factor": 1.0,
+  "late_fraction": 0.2,
+  "message_zero_tolerance": 1e-10,
+  "stability_thresholds": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "primary_stability_threshold": 1e-08,
+  "fixed_patience_values": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "logical_stability_values": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "residual_thresholds": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "adaptive_k": 8,
+  "adaptive_max_views": 4,
+  "d9_weight4_bp_failure_samples_per_p": 1000,
+  "d9_weight4_reuse_cached_bp_failures": true,
+  "equal_budget_runtime_repeats": 1,
+  "random_view_seed": 20260907,
+  "cross_distance_levels": [
+    1,
+    2,
+    3
+  ],
+  "cross_distance_error_weights": [
+    2,
+    3
+  ],
+  "cross_distance_weight3_sample_limit": 2000,
+  "cross_distance_reuse_distance5": true,
+  "validation_cases": 12,
+  "native_validation_tolerance": 1e-10,
+  "random_seed": 20260906,
+  "restart_message_sigma": 0.05
+}

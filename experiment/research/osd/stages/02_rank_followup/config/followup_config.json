@@ -1,0 +1,67 @@
+{
+  "schema_version": 7,
+  "print_level": 2,
+  "reuse_existing_data": true,
+  "primary_distance": 5,
+  "strict_tesseract_gap": true,
+  "screen_trace_limits_by_distance": {
+    "5": 5000,
+    "9": 3000
+  },
+  "case_limits_by_distance": {
+    "5": 300,
+    "9": 150
+  },
+  "minimum_gap_events": 20,
+  "top_k_values": [
+    3,
+    5,
+    8,
+    10,
+    15,
+    20
+  ],
+  "snapshot_feature_window": 5,
+  "cv_folds": 5,
+  "rank_weight_values": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "pair_limit_per_shot": 500,
+  "osd_orders_by_distance": {
+    "5": [
+      0,
+      1,
+      3
+    ],
+    "9": [
+      0,
+      1
+    ]
+  },
+  "scaling_values": [
+    0.7,
+    0.8,
+    1.0,
+    1.2
+  ],
+  "damping_values": [
+    0.0,
+    0.2,
+    0.5
+  ],
+  "trigger_quantiles": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "bootstrap_repetitions": 1000,
+  "development_fraction": 0.5,
+  "random_seed": 20260910
+}

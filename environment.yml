@@ -1,0 +1,38 @@
+name: qec
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.12
+  - pip=26.0.1
+  - setuptools=80.10.2
+  - wheel=0.46.3
+  - cmake>=3.24
+  - ninja
+  - pip:
+      - numpy==2.2.5
+      - scipy==1.17.1
+      - networkx==3.6.1
+      - matplotlib==3.10.8
+      - sympy==1.14.0
+      - stim==1.16.dev1770241571
+      - sinter==1.15.0
+      - ldpc==2.4.1
+      - pymatching==2.3.1
+      - qldpc==0.2.8
+      - pandas==3.0.0
+      - plotly==6.7.0
+      - seaborn==0.13.2
+      - matplotlib-venn==1.1.2
+      - scikit-learn==1.8.0
+      - beliefmatching==0.2.0
+      - bposd==2.1
+      - tqdm==4.67.3
+      - Cython==3.2.4
+      - pybind11==3.0.2
+      - pytest==9.0.2
+      - flake8==7.3.0
+      - ipykernel==7.2.0
+      - ipython==9.11.0
+      - pybind11-stubgen
+      # Install local decoder dependencies after environment creation.
+      # See src/decoders/lib/README.md for the required order.

@@ -1,0 +1,105 @@
+{
+  "schema_version": 9,
+  "print_level": 2,
+  "smoke_mode": false,
+  "reuse_existing_data": true,
+  "primary_levels": [
+    2
+  ],
+  "validation_levels": [
+    3
+  ],
+  "p_values": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.05
+  ],
+  "validation_p_values": [
+    0.02,
+    0.03,
+    0.05
+  ],
+  "minimum_shots_per_point": 20000,
+  "maximum_shots_per_point": 100000,
+  "sampling_batch_size": 2000,
+  "target_gap_cases_per_point": 100,
+  "analysis_gap_limit_per_point": 100,
+  "bp_standard_iterations": 60,
+  "continued_iterations": 100,
+  "configured_full_osd_order_by_distance": {
+    "5": 3,
+    "9": 3
+  },
+  "osd_orders": [
+    0,
+    1,
+    2
+  ],
+  "pcm_views": 20,
+  "selected_pcm_views": 50,
+  "selected_pcm_case_limit": 20,
+  "pcm_rows_per_view": [
+    1,
+    2,
+    3
+  ],
+  "candidate_max_row_weight": 10,
+  "restart_count": 50,
+  "restart_message_sigma": 0.05,
+  "restart_prior_sigma": 0.02,
+  "nms_alpha_values": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "oms_beta_values": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "scaling_values": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "damping_values": [
+    0.0,
+    0.2,
+    0.5,
+    0.7
+  ],
+  "prior_decode_multipliers": [
+    0.75,
+    0.9,
+    1.0,
+    1.1,
+    1.25
+  ],
+  "prior_variable_sigma": 0.03,
+  "prior_perturbations": 20,
+  "ambiguity_top_k": 8,
+  "pcm_ensemble_sizes": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "adaptive_max_views": 4,
+  "logical_margin_threshold": 0.25,
+  "milp_time_limit_seconds": 60.0,
+  "logical_cost_case_limit_per_group": 100,
+  "bootstrap_repetitions": 1000,
+  "development_fraction": 0.5,
+  "final_case_limit_per_point": -1,
+  "random_seed": 20260912,
+  "tesseract_beam": 8,
+  "tesseract_pq_limit": 200000,
+  "tesseract_timing_shots_per_batch": 100
+}
